@@ -6,7 +6,7 @@ def main():
     # Pygame 초기화
     pygame.init()
 
-    # 화면 설정 (이 부분이 반드시 초기화되어야 함)
+    # 화면 설정
     screen_width = 800
     screen_height = 600
     screen = pygame.display.set_mode((screen_width, screen_height))
