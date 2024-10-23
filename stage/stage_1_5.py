@@ -63,8 +63,9 @@ def dialogue_album2():
 
 def dialogue_calendar():
     dialogues = [
-        {"name": "", "dialogue": "민경록이 쓰는 달력이다. "},
-        {"name": "차준영", "portrait": "char3.png", "dialogue": "사진이 없어졌다..."}
+        {"name": "", "dialogue": "민경록이 쓰는 달력이다."},
+        {"name": "", "dialogue": "9월 1일에 동그라미가 쳐져있다"},
+        {"name": "차준영", "portrait": "char3.png", "dialogue": "생일 따위 알고싶지 않아..."}
     ]
     return dialogues
 
@@ -72,23 +73,32 @@ def dialogue_calendar():
 def dialogue_calendar2():
     dialogues = [
         {"name": "차준영", "portrait": "char1.png", "dialogue": "이건..."},
-        {"name": "", "portrait": "char3.png", "dialogue": "사진이 없어졌다..."}
+        {"name": "", "portrait": "char3.png", "dialogue": "민경록이 만든 수뭉이 전용 달력이다..."},
+        {"name": "차준영", "portrait": "char1.png", "dialogue": "진짜 극혐"},
+        {"name": "", "portrait": "char1.png", "dialogue": "수뭉이의 생일인 11월 28일에 동그라미가 쳐져있다"},
+        {"name": "", "portrait": "char1.png", "dialogue": "...다른 페이지에는 알 수 없는 곳에 하트가 쳐져있다"}
+
     ]
     return dialogues
 
 
 def dialogue_nazna():
     dialogues = [
-        {"name": "차준영", "portrait": "char1.png", "dialogue": "이 사진첩에 중요한 단서가 있다."},
-        {"name": "차준영", "portrait": "char3.png", "dialogue": "사진이 없어졌다..."}
+        {"name": "차준영", "portrait": "char1.png", "dialogue": "으아... 이게 뭐야?"},
+        {"name": "", "dialogue": "경록이의 최애, 나즈나 인형이다"},
+        {"name": "차준영", "portrait": "char1.png", "dialogue": "으 극혐..."},
+        {"name": "차준영", "portrait": "char1.png", "dialogue": "엇 뒤에 뭐가 달려있네"},
+        {"name": "", "dialogue": "인형 뒤에는 9월 23일 이라 적혀있다"}
+
     ]
     return dialogues
 
 
 def dialogue_memo():
     dialogues = [
-        {"name": "차준영", "portrait": "char1.png", "dialogue": "이 사진첩에 중요한 단서가 있다."},
-        {"name": "차준영", "portrait": "char3.png", "dialogue": "사진이 없어졌다..."}
+        {"name": "차준영", "portrait": "char1.png", "dialogue": "흠... 메모가 있네"},
+        {"name": "차준영", "portrait": "char3.png", "dialogue": "경..록이가 좋아하는 건..?"},
+        {"name": "차준영", "portrait": "char3.png", "dialogue": "뭔, 누가 해둔거야?"}
     ]
     return dialogues
 
