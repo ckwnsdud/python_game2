@@ -93,7 +93,6 @@ dialogues = [
      "dialogue": "야!!!!!!!!!! 거기서!!!!!!"},
     {"backgrounds": "run.png", "cha": "angry.png", "name": "차준영",
      "dialogue": "민경록 !!! 내 수뭉이 피규어 돌려줘 !!!!!!!!"},
-
 ]
 
 # 대사 줄바꿈 처리 함수
